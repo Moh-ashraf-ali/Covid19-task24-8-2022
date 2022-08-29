@@ -1,0 +1,625 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbarout {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 6649956;
+    background-color: white;
+}
+
+.navbar {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    margin: 20px 5px;
+}
+
+.navbar .logo h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.navbar .logo h1 .span2 {
+    color: #5065aa;
+    font-weight: bold;
+}
+
+.navbar .nav ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+}
+
+.navbar .nav ul li {
+    margin: 22px 12px;
+}
+
+.navbar .nav ul li a {
+    text-decoration: none;
+    color: #5065aa;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+
+}
+
+.navbar .nav ul li .home {
+    color: #2a81eb;
+}
+
+.navbar .nav ul .getapp1 {
+    margin-top: 40px;
+
+}
+
+.navbar .nav ul li .getapp {
+    padding: 15px 25px;
+    /* border: 2px solid rgb(0, 105, 217) ; */
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(0, 105, 217);
+    margin-top: 30px;
+}
+
+.navbar .nav ul li .getapp:hover {
+    border: 3px solid #8EC4FE;
+
+}
+
+/* ==== nav in media query 750px (hidden)======= */
+.navbar .hidden-align {
+    display: none;
+}
+
+.navbar .nav-mediaquery-out {
+    width: 80%;
+    height: 80vh;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    margin: 75px 50px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 5px grey;
+}
+
+.navbar .nav-mediaquery-out .nav-mediaquery {
+    width: 75%;
+    height: 75vh;
+    margin: auto;
+}
+
+.navbar .nav-mediaquery-out .nav-mediaquery ul {
+    list-style-type: none;
+}
+
+.navbar .nav-mediaquery-out .nav-mediaquery ul li {
+    margin: 20px 30px;
+}
+
+.navbar .nav-mediaquery-out .nav-mediaquery ul li a {
+    text-decoration: none;
+    color: #2a81eb;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/* ======end navbar====== */
+.overlay{
+    width: 100%;
+    height: auto;
+    background-image: url(../image/Header.png);
+    background-size: 100% 100%;
+    background-position: center center;
+}
+.firstSection {
+    width: 80%;
+    margin: auto;
+}
+
+.firstSection .row {
+    width: 100%;
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.firstSection .row .firstSecImg {
+    width: 50%;
+
+}
+
+.firstSection .row .firstSecImg>img {
+    width: 100%;
+
+}
+
+.firstSection .row .firstSecInf {
+    width: 50%;
+}
+
+.firstSection .row .firstSecInf .row1 {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+.firstSection .row .firstSecInf .row1 .row1-h2 {
+    width: 50%;
+}
+
+.firstSection .row .firstSecInf .row1 .row1-h2>h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #50658E;
+}
+
+.firstSection .row .firstSecInf .row1 .row1-h5 {
+    width: 50%;
+    margin-top: -10px;
+}
+
+.firstSection .row .firstSecInf .row1 .row1-h5>h4 {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: -5px;
+
+}
+
+.firstSection .row .firstSecInf .row1 .row1-h5>h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #50658E;
+    margin-top: -10px;
+}
+
+.firstSection .p1 {
+    margin-top: 50px;
+    padding-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212d70;
+    font-size: 17px;
+
+}
+
+.firstSection .row .howToProtect {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    margin-top: 65px;
+
+}
+
+.firstSection .row .howToProtect .howToProtect-a1 {
+    width: 50%;
+}
+
+.firstSection .row .howToProtect .howToProtect-a1 a {
+    text-decoration: none;
+    color: white;
+    background-color: #0069D9;
+    padding: 15px 20px;
+    border-radius: 40px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+
+.firstSection .row .howToProtect .howToProtect-a2 a {
+    color: #0079cc;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+
+}
+
+.firstSection .row .statistics {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+    margin-bottom: 35px;
+
+}
+
+.firstSection .row .statistics .state1 {
+    width: 30%;
+    text-align: center;
+}
+
+.firstSection .row .statistics .state1 h6 {
+    font-size: 16px;
+    color: #7DA8DE;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.firstSection .row .statistics .state1 h1 {
+    color: #50658E;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.firstSection .row .firstSecInf .p2 {
+    color: #50658E;
+    font-size: 14px;
+
+}
+
+/* end fist sec */
+
+.aboutTheDiesise{
+width: 80%;
+margin: auto;
+margin-top: 80px;
+}
+.aboutTheDiesise .row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.aboutTheDiesise .row  .info1{
+    width: 65%;
+    font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .aboutTheDiesise .row  .info1 h5{
+        color: #3F6FFD;
+        font-family: Arial, Helvetica, sans-serif;
+font-size: 22px;
+font-weight: 300;
+margin-bottom: 10px;
+    }
+    .aboutTheDiesise .row  .info1 h1{
+        color: #50658E;
+        font-size: 45px;
+        margin: 15px 0px;
+        font-weight: 700;
+
+    }
+    .aboutTheDiesise .row  .info1 h3{
+        color: #3D4B69;
+        font-size: 23px;
+        font-weight: 800;
+    }
+    .aboutTheDiesise .row  .info1 h6{
+        font-weight: 700;
+        color: #16223b;
+        font-size: 21px; 
+    }
+    .aboutTheDiesise .row  .info1 p{
+        font-weight: 400;
+        color: #3D4B69;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+/* end  .aboutTheDiesise .row  .info1  */
+.aboutTheDiesise .row  .info2{
+    width: 25%;
+}
+.aboutTheDiesise .row  .info2 .need1{
+    width: 90%;
+    box-shadow: 0px 0px 1px 1px rgb(204, 199, 199);
+    padding: 20px 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.aboutTheDiesise .row  .info2 .need1 h1{
+    font-size: 23px;
+    color: #334b7d;
+
+}
+.aboutTheDiesise .row  .info2 .need{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2px 0px;
+    color: #217ada;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 0px 1px 1px rgb(204, 199, 199);
+    padding: 20px 25px;
+    border-radius: 2px;
+}
+.aboutTheDiesise .row  .info2 .need a{
+    text-decoration: none;
+    color: #217ada;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aboutTheDiesise .row  .info2 .need>a:hover {
+    color: #0b56a7;
+    text-decoration: underline;
+}
+    .aboutTheDiesise .row  .info2{
+        width: 30%;
+    }
+/* end aboutTheDiesise */
+.transmitionOfCovid{
+    margin-top: 70px;
+    width: 100%;
+    height: auto;
+    background-color: #eaecf1;
+    padding-bottom: 100px;
+    }
+    .transmitionOfCovid h3{
+        padding: 10px 0px;
+    }
+    .transmitionOfCovid h4{
+        margin-top: 30px;
+        color: #1963b3;
+        text-align: center;
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .transmitionOfCovid h1{
+        color: #334b7d;
+font-size: 35px; 
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+font-weight: 900;
+margin-top: 15px;
+    }
+    .transmitionOfCovid p{
+        font-weight: 500;
+        color: #2a3a5c;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 30px;
+
+    }
+    .transmitionOfCovid .coronaspreading .row{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+            }
+
+.transmitionOfCovid .coronaspreading .row .transmition1{
+    width: 30%;
+    border: 1px solid rgb(211, 204, 204);
+
+}
+.transmitionOfCovid .coronaspreading .row .transmition1 img{
+    width: 100%;
+    border-bottom: 5px solid #2674E8;
+}
+
+.transmitionOfCovid .coronaspreading .row .transmition1 h5{
+    color: #334b7d;
+    font-family: Arial, Helvetica, sans-serif;
+font-weight: 500;
+font-size: 18px;
+padding: 0px 15px;
+}
+.transmitionOfCovid .coronaspreading .row .transmition1 p{
+    color: #2a3a5c;
+    font-family: Arial, Helvetica, sans-serif;
+font-weight: 400;
+font-size: 16px;
+padding: 0px 15px;
+}
+.transmitionOfCovid .coronaQuestion{
+    width: 100%;
+    height: auto;
+    margin-top:100px;
+    text-align: center;
+
+}
+
+.transmitionOfCovid .coronaQuestion a{
+    color: white;
+    width: 500px;
+    background-color: #0069D9;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+border-radius: 50px;
+padding: 30px;
+text-decoration: none;
+margin: auto;
+}
+.transmitionOfCovid .coronaQuestion i{
+    padding: 10px;
+    background-color: #fff;
+    color:  #0069D9;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+@media(max-width : 750px) {
+    .navbar .nav {
+        display: none;
+    }
+
+    .navbar .hidden-align {
+        padding-top: 22px;
+        display: block;
+
+    }
+
+    .navbar .hidden-align i {
+        color: black;
+        font-size: 30px;
+    }
+
+    .nav-mediaquery-out {
+        transition: all 2s;
+    }
+
+    .navbar .hidden-align:hover .nav-mediaquery-out {
+        display: block;
+    }
+
+    .navbar .logo img {
+        margin: 12px 0px;
+        width: 40px;
+    }
+
+    /* end nav bar */
+
+    .firstSection {
+        width: 90%;
+    }
+
+    .firstSection .row {
+        flex-direction: column;
+    }
+
+    .firstSection .row .firstSecImg {
+        width: 80%;
+        margin: auto;    }
+
+    .firstSection .row .firstSecInf {
+        width: 100%;
+
+    }
+
+    .firstSection .row .firstSecInf .row1 {
+
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+    .firstSection .row .firstSecInf .row1 .row1-h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .firstSection .row .firstSecInf .row1 .row1-h2>h2 {
+        margin-bottom: 15px;
+        margin-left: 0px;
+    }
+
+    .firstSection .row .firstSecInf .row1 .row1-h5 {
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .firstSection .row .firstSecInf .row1 .row1-h5>h3 {
+        margin-top: 0px;
+    }
+
+    .firstSection .p1 {
+        /* padding-left: 20px; */
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 90px;
+        padding: 0px;
+
+    }
+
+    .firstSection .row .howToProtect {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 65px;
+        margin: auto;
+
+    }
+
+    .firstSection .row .howToProtect .howToProtect-a1 {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .firstSection .row .howToProtect .howToProtect-a2 {
+        width: 100%;
+
+    }
+
+    .firstSection .row .howToProtect .howToProtect-a2 a {
+
+        margin-left: 0px;
+
+    }
+
+    .firstSection .row .statistics {
+        flex-direction: column;
+
+    }
+
+    .firstSection .row .statistics .state1 {
+        width: 100%;
+        text-align: center;
+        margin: 30px opx;
+    }
+
+    .firstSection .row .firstSecInf .p2 {
+        color: #50658E;
+        font-size: 14px;
+        text-align: center;
+        margin: 30px 0px;
+
+    }
+/* end first section */
+.aboutTheDiesise{
+    width: 100%;
+     }
+     .aboutTheDiesise .row{
+        flex-direction: column;
+     }
+     .aboutTheDiesise .row  .info1{
+        width: 95%;
+margin: auto;    
+margin-bottom: 50px;
+text-align: center;
+        }
+
+        .aboutTheDiesise .row  .info2{
+            width: 80%;
+            margin: auto;    
+            margin-bottom: 50px;
+
+        }
+/* end aboutTheDiesise section */
+.transmitionOfCovid{
+    margin-top: 80px;
+    margin: auto;
+}
+.transmitionOfCovid .coronaspreading .row{
+    width: 100%;
+flex-direction: column;
+margin: auto;
+justify-content: space-between;
+
+
+}
+.transmitionOfCovid .coronaspreading .row .transmition1{
+    width: 90%;
+margin: 15px auto;
+}
+.transmitionOfCovid .coronaQuestion a{
+    font-size: 15px;
+
+}
+
+
+
+
+
+
+
+
+}
